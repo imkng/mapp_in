@@ -1,6 +1,25 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.5.3"
-  }
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkng/mapp_in_service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imkng/mapp_in_service/issues"
+  },
+  "homepage": "https://github.com/imkng/mapp_in_service#readme",
+  "description": ""
 }
